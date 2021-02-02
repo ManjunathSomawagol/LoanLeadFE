@@ -1,0 +1,65 @@
+[
+    {
+		"LeadId" : 1,
+		"LoanAmount": 10000,
+		"LeadSource": "Emailer",
+		"CommunicationMode": "web",
+		"Status": "Initial Communication",
+		"ContactDetails": [
+			{
+				"LeadId": 1,
+				"ContactType": "Mobile",
+				"ContactName": "Manjunath",
+				"Dob": "1995-07-22T00:00:00",
+				"Gender": "Male",
+				"Email": "Manjunath@test.com",
+				"ContactNumber": "889977889977"
+			}
+		]
+    },
+    {
+		"LeadId" : 2,
+		"LoanAmount": 10000,
+		"LeadSource": "Emailer",
+		"CommunicationMode": "News paper",
+		"Status": "Initial Communication",
+		"ContactDetails": [
+			{
+				"LeadId": 1,
+				"ContactType": "Mobile",
+				"ContactName": "Alex",
+				"Dob": "1995-07-22T00:00:00",
+				"Gender": "Male",
+				"Email": "Alex@test.com",
+				"ContactNumber": "889977889977"
+			}
+		]
+    },
+    {
+		"LeadId" : 3,
+		"LoanAmount": 10000,
+		"LeadSource": "Emailer",
+		"CommunicationMode": "web",
+		"Status": "Folow Up",
+		"ContactDetails": [
+			{
+				"LeadId": 1,
+				"ContactType": "Mobile",
+				"ContactName": "Sam",
+				"Dob": "1995-07-22T00:00:00",
+				"Gender": "Female",
+				"Email": "Sam@test.com",
+				"ContactNumber": "889977889977"
+			},
+			{
+				"LeadId": 1,
+				"ContactType": "LandLine",
+				"ContactName": "Sam Home",
+				"Dob": "1995-07-22T00:00:00",
+				"Gender": "Female",
+				"Email": "Sam.Home@test.com",
+				"ContactNumber": "889977889977"
+			}
+		]
+	}
+]
